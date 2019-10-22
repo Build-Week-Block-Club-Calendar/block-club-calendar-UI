@@ -153,8 +153,11 @@ body {
 }
 #header p {
   margin: auto;
+  padding: 20px;
   width: 100%;
   text-align: center;
+  border-top: 10px double #98ee99;
+  border-bottom: 10px double #98ee99;
 }
 @media (max-width: 500px) {
   #header p {
@@ -173,14 +176,22 @@ body {
   font-size: 25px;
   margin: 60px;
 }
+.button:hover {
+  background-color: #98ee99;
+}
 .CTA {
   padding: 0px 0px 30px 0px;
-  width: 50%;
+  width: 70%;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
   border-top: 10px double #98ee99;
   border-bottom: 10px double #98ee99;
+}
+.CTA p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 .Info {
   display: flex;
@@ -206,8 +217,8 @@ body {
   }
 }
 .Info img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -239,8 +250,8 @@ body {
   }
 }
 .InfoRev img {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -254,5 +265,5 @@ footer {
   justify-content: center;
 }
 #about {
-  background-color: red;
+  padding: 250px 0px 0px 0px;
 }
