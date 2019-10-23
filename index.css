@@ -1,3 +1,27 @@
+.mainButtonsinfo {
+  background-color: #66bb6a;
+  border-radius: 8px;
+  color: #e8f5e9;
+  display: inline-block;
+  line-height: 3.25em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-size: 25px;
+  margin: 60px;
+}
+.aboutButtoninfo {
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  color: #66bb6a;
+  display: inline-block;
+  line-height: 3.25em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-size: 15px;
+  margin: 20px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -138,6 +162,7 @@ body {
   max-width: 800px;
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .body {
@@ -147,15 +172,16 @@ body {
 .body .content {
   width: 80%;
   margin: auto;
+  text-align: center;
 }
 #header h1 {
   padding: 250px 0px 0px 0px;
 }
 #header p {
   margin: auto;
+  text-align: center;
   padding: 20px;
   width: 100%;
-  text-align: center;
   border-top: 10px double #98ee99;
   border-bottom: 10px double #98ee99;
 }
@@ -164,7 +190,7 @@ body {
     width: 100%;
   }
 }
-.button {
+.mainButtons {
   background-color: #66bb6a;
   border-radius: 8px;
   color: #e8f5e9;
@@ -176,22 +202,22 @@ body {
   font-size: 25px;
   margin: 60px;
 }
-.button:hover {
+.mainButtons:hover {
   background-color: #98ee99;
 }
 .CTA {
   padding: 0px 0px 30px 0px;
-  width: 70%;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 40px;
-  border-top: 10px double #98ee99;
-  border-bottom: 10px double #98ee99;
-}
-.CTA p {
   width: 80%;
   margin: auto;
   text-align: center;
+  margin-bottom: 40px;
+}
+.CTA p {
+  padding: 5% 15%;
+  margin: auto;
+  text-align: center;
+  border-top: 10px double #98ee99;
+  border-bottom: 10px double #98ee99;
 }
 .Info {
   display: flex;
@@ -209,6 +235,7 @@ body {
 }
 .Info .txt {
   margin: auto;
+  text-align: center;
   width: 40%;
 }
 @media (max-width: 500px) {
@@ -242,6 +269,7 @@ body {
 }
 .InfoRev .txt {
   margin: auto;
+  text-align: center;
   width: 40%;
 }
 @media (max-width: 500px) {
@@ -264,6 +292,56 @@ footer {
   display: flex;
   justify-content: center;
 }
+.aboutButton {
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  color: #66bb6a;
+  display: inline-block;
+  line-height: 3.25em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-size: 15px;
+  margin: 20px;
+}
+.aboutButton:hover {
+  background-color: #98ee99;
+}
 #about {
   padding: 250px 0px 0px 0px;
+  margin: auto;
+  text-align: center;
+}
+#about h1 {
+  font-size: 60px;
+  padding: 20px;
+}
+.People {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Dev {
+  border: 8px double #98ee99;
+  padding: 20px;
+  width: 250px;
+  margin: 20px;
+}
+.button2 {
+  background-color: #66bb6a;
+  border-radius: 8px;
+  color: #e8f5e9;
+  display: inline-block;
+  line-height: 3.25em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-size: 25px;
+  margin: 20px;
+}
+.button2:hover {
+  background-color: #98ee99;
 }
