@@ -1,11 +1,14 @@
 .CTA {
   padding: 0px 0px 30px 0px;
-  width: 50%;
-  text-align: center;
-  margin: auto;
+  width: 80%;
+  .center(auto, center);
   margin-bottom: 40px;
-  border-top: 10px double #98ee99;
-  border-bottom: 10px double #98ee99;
+  p {
+    padding: 5% 15%;
+    .center(auto, center);
+    border-top: 10px double #98ee99;
+    border-bottom: 10px double #98ee99;
+  }
 }
 .Info {
   display: flex;
@@ -19,15 +22,15 @@
     margin: 40px 0px;
   }
   .txt {
-    margin: auto;
+    .center(auto, center);
     width: 40%;
     @media @mobile {
       width: 100%;
     }
   }
   img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 8px;
     @media @mobile {
       width: 100%;
@@ -46,15 +49,15 @@
     padding: 40px 0px;
   }
   .txt {
-    margin: auto;
+    .center(auto, center);
     width: 40%;
     @media @mobile {
       width: 100%;
     }
   }
   img {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 8px;
     @media @mobile {
       width: 100%;
